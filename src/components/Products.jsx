@@ -10,7 +10,7 @@ export default class Products extends Component {
                         <li key={product._id}>
                             <div className="product">
                                 <a href="#">
-                                    <img src={product.image} alt="Product"/>
+                                    <img src={product.image} alt={product.title}/>
                                     <p>
                                         {product.title}
                                     </p>
